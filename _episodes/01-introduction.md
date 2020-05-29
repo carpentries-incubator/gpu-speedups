@@ -19,8 +19,8 @@ keypoints:
 - "Data is copied from the CPU (host) to the GPU (device), where it is computed on. After a computation, it need to be copied back to the CPU to be interacted with by `numpy`, etc"
 - "`%timeit` can be used to benchmark the runtime of GPU spedup functions"
 - "GPU spedup functions are optimized for at least four things: 1. input size 2. compute complexity 3. CPU/GPU copying 4. data type. Concretely, a gpu spedup function can be slow because the input size is too small, the computation is too simple, there is excessive data copying to/from GPU/CPU, and the input types are excessivly large (e.g. np.float64 vs np.float32)"
-- "Make GPU spedup ufuncs with `@numba.vectorize(..., target='cuda')`
-- "Make CUDA device functions with `@numba.cuda.jit(device=True)` 
+- "Make GPU spedup ufuncs with `@numba.vectorize(..., target='cuda')`"
+- "Make CUDA device functions with `@numba.cuda.jit(device=True)` "
 ---
 
 
