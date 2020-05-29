@@ -1,3 +1,5 @@
+[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+
 # GPU Speedups in Python
 
 This lesson explores how to parallelize Python code with GPU speedups. There are a number of ways to do this, and some methods overlap with others.
