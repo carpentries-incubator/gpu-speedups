@@ -13,7 +13,6 @@ objectives:
 - "Explore some available `cupy` functions that are like those in `numpy` but are GPU spedup"
 - "Get experience with GPU spedup `ufuncs`"
 - "Get experience with CUDA device functions, which are only called on the GPU (`numba.cuda.jit`)"
-``"
 keypoints:
 - "CuPy is NumPy, but for the GPU"
 - "Data is copied from the CPU (host) to the GPU (device), where it is computed on. After a computation, it need to be copied back to the CPU to be interacted with by `numpy`, etc"
