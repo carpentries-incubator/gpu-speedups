@@ -1,8 +1,9 @@
 # GPU Speedups in Python
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+This lesson explores how to parallelize Python code with GPU speedups. There are a number of ways to do this, and some methods overlap with others.
 
-This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
+## Audience
+The intended audience are people familiar with Python, the python library `numpy`, and that have some initial familiarity with the ideas behind parallelization in computer programming. 
 
 ## Contributing
 
