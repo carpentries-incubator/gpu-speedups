@@ -1,9 +1,10 @@
 ---
-title: "Introduction"
+title: "CuPy and Numba on the GPU"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What is CuPy?"
+- "What is Numba?"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
